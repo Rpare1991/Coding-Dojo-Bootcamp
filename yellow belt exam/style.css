@@ -1,0 +1,236 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width:100%;
+    height:auto;
+}
+body {
+    background-color: #c7dfe2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex-container{
+    
+    margin: 0 auto;
+    background-color:white;
+    margin-right:0px;
+}
+
+.flex-container2 {
+    
+    margin: 0px auto;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    
+}
+.flex-container, .scores, .top-scores {
+    display: flex;
+    align-items: center;
+}
+
+.scores {
+   padding-left: 100px;
+}
+
+.top-scores1, .top-scores2, .top-scores3, .top-scores4 {
+    flex-direction: column;
+    padding-left:25px;
+    padding-right:75px;
+}
+
+#dsnn-logo {
+    color:white;
+    margin-left:100px;
+    padding:5px;
+    background-color: red;
+    font-size:20px;
+    font-weight:bold;   
+    transform: skewX(-15deg);
+    
+}
+.flex-container2 a {
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+.sports1, .sports2, .sports3, .sports4, .sports5 {
+    padding-left:25px;
+    padding-right:25px;
+}
+
+.nav-icons {
+    padding-left:50px;
+}
+.nav-icons img {
+    width:10%;
+    height:auto;
+    padding-left:10px;
+    padding-right:10px;
+    
+}
+.left-content {
+    display: inline-block;
+}
+.stories {
+    border-radius: 20px;
+    padding:20px;
+    width:180px;
+    margin-top:25px;
+    margin-left:80px;   
+    background-color: white;
+    
+}
+
+#underline {
+    border: 1px solid black;
+    border-radius: 0px;
+    margin-bottom:5px;
+ 
+}
+
+.sign-in {
+    
+    border-radius: 20px;
+    padding:20px;
+    width:180px;
+    margin-top:10px;
+    margin-left:80px;
+    background-color: white;
+    margin-right:20px;
+    
+}
+
+.signin-btn {
+    background-color: blue;
+    color:white;
+    border-width: 2px;
+    box-shadow: 3px 3px black; 
+    margin-top:5px;
+    margin-left:10px; 
+    width:60px;
+}
+
+.signup-btn {
+    border-color: black;
+    border-width: 2px;
+    box-shadow: 3px 3px black;  
+    margin-top:5px;
+    margin-left:20px;
+    width:60px;
+}
+
+.subscribe {
+   
+    padding:20px;
+    border-radius: 20px;
+    width:180px;
+    margin-top:10px;
+    margin-left:80px;
+    background-color: white;
+    margin-right:20px;
+}
+
+#sub {
+   margin-left:10px;
+    margin-top:10px;
+    width:140px;
+    background-color:rgb(255, 224, 146);
+    border-color: black;
+    box-shadow: 3px 3px black;
+}
+
+.main-content {        
+    padding:20px;
+    border-radius: 20px;   
+    width: 500px;
+    height:310px;
+    display: inline-block;
+    margin-left:0px;
+    background-color:white;
+    
+    top:80px;
+    
+    
+}
+
+.title {
+    display: inline-block;
+    display:flex;
+
+}
+
+#live {
+    color:red;
+    padding-left:30px;
+    padding-right:50px;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(250, 10, 10);
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .game-icons {
+     justify-content: space-between;
+      display:flex;
+      
+  }
+  .game-icons img {
+
+    width:25%; 
+    height:auto;
+  }
+
+  .vs {
+    padding-left: 100px;
+    padding-top:50px;
+    padding-right:100px;
+  }
+  .team-names p {
+      font-size:12px;
+  }
+  .team-names {
+    justify-content: space-between;
+    display:flex;
+    
+  }
+ .ninjas {
+    display:inline-block;
+    
+         
+ }
+
+.bold {
+    font-weight:bold;
+}
+.time-remaining {
+    display:inline-block;
+    
+    
+    
+    
+}
+.pirates {
+    display:inline-block;
+     
+}
+
+.team-score {
+    display:flex;
+    justify-content: space-between;
+    margin-right:5px;
+    font-size: 25px;
+}
+
+.bottom {
+    margin-right:5px;
+    font-size:15px
+}

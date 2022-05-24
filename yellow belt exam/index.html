@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dojo Sports News Network</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<div class = "wrapper">
+        <div class="flex-container">
+            <div class ="scores">
+                <h3>Live Scores</h3>
+            </div>
+                
+                <div class="top-scores"></ul>      
+                    <div class="top-scores1">
+                        <h6>SJC Ninjas - 314</h6>
+                        <h6>NS Pirates-159</h6>
+                    </div>
+                    <div class= "top-scores2">
+                        <h6>CHI Samurai - 0</h6>
+                        <h6>TUL Wizards - 0</h6>
+                    </div>
+                    <div class = "top-scores3">
+                        <h6>BOS Hackers - 13</h6>
+                        <h6>TYO Youkai -37</h6>
+                    </div>
+                    <div class = "top-scores4">
+                        <h6>BOI Knights -5</h6>
+                        <h6>Sea Lions -11</h6>
+                    </div>
+                        
+                </div>
+            </div>
+        <div class="flex-container2">
+        <p id="dsnn-logo">DSNN</p>
+        <div class="sports1">
+            <p><a href="#">Football</a></p>
+        </div>
+        <div class="sports2">
+            <p><a href="#">Basketball</a></p>
+        </div>
+        <div class="sports3">
+            <p><a href="#">Baseball</a></p>
+        </div>
+        <div class="sports4">
+            <p><a href="#">Soccer</a></p>
+        </div>
+        <div class="sports5">
+            <p><a href="#">More...</a></p>
+        </div>
+        <div class = nav-icons>
+            <img src="assets/search-light.png" alt="Search Icon">
+            <img src="assets/hamburger-light.png" alt="Hamburger Icon">
+            <img src="assets/user-circle-light.png" alt="Profile Icon">
+        </div>
+    </div>
+    <div class ="left-content">
+
+        <div class = "stories">
+     <div class = "title-stories">
+            <h3>Top Stories</h3>
+            <hr id="underline" />
+            <p><a href="#"></a> Ninjas up big in 5th</a></p>
+            <p><a href="#"></a> Best sports cities</a></p>
+            <p><a href="#"></a> Choi joins Hall of Fame</a></p>
+            <p><a href="#"></a>Tournament Underway</a></p>
+            <p><a href="#"></a>Samurai at Wizards...</a></p>
+        </div>
+    </div>
+    <div class = "sign-in">
+            <h4>Customize your DSNN</h4>
+            <div class ="signinbtn">
+                <button class = "signin-btn">Sign In</button>
+                <button class = "signup-btn">Sign Up</button>
+            </div>
+        </div>
+
+    <div class ="subscribe">
+        <h4>Never Miss a play</h4>
+        <div class ="sub-button">
+            <button id="sub" onclick="disappear()">Subscribe</button>
+        </div>
+    </div>
+</div>
+    <div class = "main-content">
+        <div class = "title">            
+            <h2 id="live"><span class="dot"></span>   Live</h2>
+            <h2>Ninjas Leading Pirates</h2></p>
+        </div>
+        <div class = "game-icons">
+            <img class = "game-icon1" src="assets/sjc-ninjas.png" alt="Ninja Team Logo">
+            <h1 class="vs"> vs</h1>
+            <img class= "game-icon2" src ="assets/ns-pirates.png" alt="Pirate Team Logo">
+        </div> 
+        <div class = "team-names">
+            <div class = "ninjas">
+                <p>San Jose<p>
+                <h3>Ninjas</h3> 
+                <p>(10 W - 3 L)</p>
+            </div>
+            <div class="time-remaining">
+                <h5>0:13 remaining</h5>
+                <h5>5th period</h5>
+            </div>
+            <div class ="pirates">
+                <p>Nova Scotia</p>
+                <h2>Pirates</h2>
+                <p>(12 W - 2 L)</p>
+            </div>
+        </div>
+        <div class ="team-score">
+            <div class="score-ninjas">
+                <h1 id="ninjaScore" onclick="incrementNinjas(1)">314</h1>
+            </div>
+            <div class ="score-pirates">
+                <h1 id="pirateScore" onclick="incrementPirates(1)">159</h1>
+            </div>
+
+        </div>
+        <div class ="bottom">
+            <hr id="underline"/>
+            <p>A conservative match between the two top-performing sides in the Central League Division with a number 1 seed at stack...<a href="#">get live updates</a></p>
+        </div>
+
+    
+    </div>
+</div>
+<script src="script.js"></script>
+  </body>
+</html>
+
